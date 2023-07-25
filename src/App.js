@@ -7,7 +7,6 @@ const App = () => {
   const [transactions, setTransactions] = useState([]);
 
   const addTransaction = (newTransaction) => {
-    // Add the new transaction to the state (it will not be persisted to the backend)
     setTransactions([...transactions, newTransaction]);
   };
 
